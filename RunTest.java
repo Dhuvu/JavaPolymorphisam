@@ -1,11 +1,13 @@
 package JavaPolymorphisam;
 
+import java.awt.*;
+
 public class RunTest {
 
     public static void main(String[] args) {
 
         BarclaysBank bank=new BarclaysBank();
-        System.out.println(bank.typesOfAccount("Barclays"));
+        bank.typesOfAccount("Saving Account","Current Account");
         bank.savingAccount();
         bank.CurrentAccount();
 
